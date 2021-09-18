@@ -1,5 +1,8 @@
 Ссылки на скриншоты:
-https://ibb.co/PGY0b3L
-https://ibb.co/wJQSvq1
-https://ibb.co/fd2sR7M
-https://ibb.co/KXX6Cfb
+list https://ibb.co/PGY0b3L
+
+get https://ibb.co/wJQSvq1
+
+add https://ibb.co/fd2sR7M
+
+remove https://ibb.co/KXX6Cfb
