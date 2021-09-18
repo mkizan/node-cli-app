@@ -1,0 +1,29 @@
+{
+  "name": "contacts",
+  "version": "1.0.0",
+  "description": "application for work with contacts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkizan/node-cli-app.git"
+  },
+  "author": "Nikolay Kizan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkizan/node-cli-app/issues"
+  },
+  "homepage": "https://github.com/mkizan/node-cli-app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "commander": "^8.2.0",
+    "nanoid": "^3.1.25"
+  }
+}
