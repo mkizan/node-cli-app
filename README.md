@@ -5,4 +5,4 @@ get https://ibb.co/wJQSvq1
 
 add https://ibb.co/fd2sR7M
 
-remove https://ibb.co/KXX6Cfb
+remove https://ibb.co/fDg41wj
