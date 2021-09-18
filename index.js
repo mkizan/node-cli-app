@@ -23,6 +23,7 @@ async function invokeAction({ action, id, name, email, phone }) {
       const contact = await contactsFunctions.getContactById(id);
       if (!contact) {
         console.log(`Contact with id=${id} not found`);
+        return false;
       }
       console.log(contact);
       break;
@@ -33,8 +34,12 @@ async function invokeAction({ action, id, name, email, phone }) {
       break;
 
     case 'remove':
-      await contactsFunctions.removeContact(id);
-      console.log('Contact was successfully removed');
+      const removeContactById = await contactsFunctions.removeContact(id);
+      if (!removeContactById) {
+        console.log(`Contact with id=${id} not found`);
+        return false;
+      }
+      console.log(`Contact with id=${id} was successfully removed`);
       break;
 
     default:
